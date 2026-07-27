@@ -1,0 +1,6 @@
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx-compose-lab
+    ports:
+      - "8083:80"
